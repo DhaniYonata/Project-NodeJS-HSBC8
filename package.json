@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "knex": "^3.1.0",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.6.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "product-api-dy",
+  "version": "0.0.1",
+  "description": "My first project build api for training",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "migrateknex": "knex migrate:latest --knexfile src/knexmodel/knexfile.js"
+  },
+  "keywords": [
+    "product",
+    "api"
+  ],
+  "author": "Dhani Yonata",
+  "license": "ISC"
+}
